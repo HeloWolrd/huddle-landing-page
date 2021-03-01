@@ -1,0 +1,72 @@
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('images/bg-desktop.svg');
+}
+ #Logo {
+    width: 180px;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.container{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+}
+.ilust{
+    flex-basis: 50%;
+    padding: 50px;
+}
+.container > div{
+    flex-basis: 50% ;
+}
+.text-col{
+    padding-top: 0px;
+    padding-right: 200px;
+}
+h1{
+    font-family: Poppins;
+    color: whitesmoke;
+    font-size: 33px;
+    
+}
+p{
+    font-family: Open Sans;
+    color: whitesmoke;
+    font-size: 17px;
+}
+.icons{
+    width: 35px ;
+    display: flex;
+    align-items: center;
+}
+.icons img{
+    padding-left:10px;
+}
+button{
+    border: none;
+    border-radius: 40px;
+    font-family: Poppins;
+    color: hsl(257, 40%, 49%);
+    font-size: 18px;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    transition-duration: 0.4s;
+}
+button:hover{
+    color: hsl(300, 58%, 49%);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.322), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: whitesmoke;
+}
+footer p a{
+    
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
